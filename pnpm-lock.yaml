@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   basehub:
-    specifier: 7.4.0-canary.3
-    version: 7.4.0-canary.3(@babel/runtime@7.25.6)(@types/react@18.3.9)(react-dom@18.3.1)(react@18.3.1)(typescript@5.6.2)
+    specifier: 7.4.0-canary.4
+    version: 7.4.0-canary.4(@babel/runtime@7.25.6)(@types/react@18.3.9)(react-dom@18.3.1)(react@18.3.1)(typescript@5.6.2)
   next:
     specifier: 14.2.13
     version: 14.2.13(react-dom@18.3.1)(react@18.3.1)
@@ -47,8 +47,8 @@ packages:
       regenerator-runtime: 0.14.1
     dev: false
 
-  /@basehub/genql@9.0.0-canary.4:
-    resolution: {integrity: sha512-mTnmvmlitqE7J74+30jZY8sjnEXfr8P65w1gBXU0P16PEdUWgB5gCXLV/oJCjPS9HxhFWRsrj5e0mrn22f4RZw==}
+  /@basehub/genql@9.0.0-canary.5:
+    resolution: {integrity: sha512-ld35anR8MRACQxQLt5/bJhus9ZaEvViSK3Y40pTUwKY7ZTry4c0y02BGRqlJqnQoOJb4v4gbrWAn/O3OKHHHdg==}
     dependencies:
       '@graphql-tools/graphql-file-loader': 7.5.17(graphql@16.9.0)
       '@graphql-tools/load': 7.8.14(graphql@16.9.0)
@@ -1020,14 +1020,14 @@ packages:
   /balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  /basehub@7.4.0-canary.3(@babel/runtime@7.25.6)(@types/react@18.3.9)(react-dom@18.3.1)(react@18.3.1)(typescript@5.6.2):
-    resolution: {integrity: sha512-GJLtptm1uY4lViK254WEfRu6YhGoZ16jOawK+LsYVeoO14hSgGO2HIgG81Z1w5lbzcHUHNVv/xESE1p19y7M5A==}
+  /basehub@7.4.0-canary.4(@babel/runtime@7.25.6)(@types/react@18.3.9)(react-dom@18.3.1)(react@18.3.1)(typescript@5.6.2):
+    resolution: {integrity: sha512-PUQvB5SU2pGK48c9nnrpIMJyLYhrD2q0gpOHPXTc/w8qMqB/9I2c0DPUGn2TV2yefR727ElBQ8D5/xurb+0rOg==}
     hasBin: true
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@basehub/genql': 9.0.0-canary.4
+      '@basehub/genql': 9.0.0-canary.5
       '@basehub/mutation-api-helpers': 2.0.0
       '@radix-ui/react-slot': 1.1.0(@types/react@18.3.9)(react@18.3.1)
       '@shikijs/transformers': 1.18.0
