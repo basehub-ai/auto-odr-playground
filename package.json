@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "basehub dev & next dev --port 3003",
+    "build": "basehub && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "basehub": "^7.3.4",
+    "basehub": "7.4.0-canary.2",
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18"
