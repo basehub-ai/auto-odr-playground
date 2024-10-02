@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "basehub dev & next dev --port 3003",
+    "dev": "basehub dev & next dev",
     "build": "basehub && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "basehub": "7.4.0-canary.6",
-    "next": "14.2.13",
+    "basehub": "7.5.0-canary.5",
+    "next": "14.2.14",
     "react": "^18",
     "react-dom": "^18"
   },
