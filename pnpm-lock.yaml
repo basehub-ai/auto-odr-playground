@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   basehub:
-    specifier: 7.5.0-canary.9
-    version: 7.5.0-canary.9(@babel/runtime@7.25.6)(@types/react@18.3.9)(react-dom@18.3.1)(react@18.3.1)(typescript@5.6.2)
+    specifier: 7.5.0-canary.11
+    version: 7.5.0-canary.11(@babel/runtime@7.25.6)(@types/react@18.3.9)(react-dom@18.3.1)(react@18.3.1)(typescript@5.6.2)
   next:
     specifier: 14.2.14
     version: 14.2.14(react-dom@18.3.1)(react@18.3.1)
@@ -1020,8 +1020,8 @@ packages:
   /balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  /basehub@7.5.0-canary.9(@babel/runtime@7.25.6)(@types/react@18.3.9)(react-dom@18.3.1)(react@18.3.1)(typescript@5.6.2):
-    resolution: {integrity: sha512-3FFLhMJ5tuxVRJVdaLzw4hmH5UmsSDug8M4PdWd4E0LYXYh4WrS7W6ORtTj3s4foDJ8i5vsoFTDbxOLg3+Ojew==}
+  /basehub@7.5.0-canary.11(@babel/runtime@7.25.6)(@types/react@18.3.9)(react-dom@18.3.1)(react@18.3.1)(typescript@5.6.2):
+    resolution: {integrity: sha512-ASTIuDv7yX4POi6AhHR5Kkg4ACefUvlKClfzuX6j78kcGg1+fs+wZqOrSm/TgdKw8xFSNslCP3HxbdRwsVED+A==}
     hasBin: true
     peerDependencies:
       react: ^18.2.0
